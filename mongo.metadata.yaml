@@ -1,0 +1,16 @@
+apiVersion: core.napptive.com/v1alpha1
+kind: ApplicationMetadata
+name: "MongoDB"
+version: "jammy"
+description: MongoDB database
+keywords:
+  - "mongodb"
+  - "database"
+license: "SSPLv1"
+url: "https://www.mongodb.com"
+doc: "https://hub.docker.com/_/mongo"
+logo:
+  # Do not hotlink images without permission :)
+  - src: "https://storage.googleapis.com/artifacts.playground.napptive.dev/logos/mongodb.svg"
+    type: "image/png"
+    size: "120x120"
